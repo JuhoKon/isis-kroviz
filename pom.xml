@@ -32,9 +32,9 @@
         <jar-plugin.automaticModuleName>org.apache.isis.incubator.clients.kroviz</jar-plugin.automaticModuleName>
         <git-plugin.propertiesDir>org/apache/isis/incubator/clients/kroviz</git-plugin.propertiesDir>
 	    
-	 <sonar.projectKey>JuhoKon_isis-kroviz</sonar.projectKey>
- 	 <sonar.organization>juhokon</sonar.organization>
- 	 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectKey>JuhoKon_isis-kroviz</sonar.projectKey>
+        <sonar.organization>juhokon</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <packaging>jar</packaging>
