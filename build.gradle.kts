@@ -31,8 +31,15 @@ plugins {
     val kotlinVersion: String by System.getProperties()
     id("org.jetbrains.kotlin.plugin.serialization") version kotlinVersion
     kotlin("js") version kotlinVersion
+    id "org.sonarqube" version "3.1.1"
 }
-
+sonarqube {
+  properties {
+    property "sonar.projectKey", "JuhoKon_isis-kroviz"
+    property "sonar.organization", "juhokon"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
 version = "2.0.0-SNAPSHOT"
 group = "org.apache.isis.client"
 
